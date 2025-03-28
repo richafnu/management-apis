@@ -26,6 +26,26 @@ items:
       href: ../../resources/engagementasyncoperation.md
     - name: Get
       href: ../../api/engagementasyncoperation-get.md
+  - name: Role management
+    items:
+    - name: Engagement Role
+      items:
+      - name: Engagement Role
+        href: ../../resources/engagementrole.md
+      - name: Get roles
+        href: ../../api/employeeexperience-get-roles.md
+      - name: Get roles assigned to a user
+        href: ../../api/employeeexperience-get-assignedtoauser.md
+    - name: Engagement Role Member
+      items:
+      - name: Engagement Role Member
+        href: ../../resources/engagementrolemember.md
+      - name: Get users with roles
+        href: ../../api/employeeexperience-list-userswithroles.md
+      - name: Promote user to role
+        href: ../../api/employeeexperience-post-promoteuser.md
+      - name: Demote user from role
+        href: ../../api/employeeexperience-delete-demoteuser.md
 - name: Employee goals (preview)
   items:
   - name: Goals export job
